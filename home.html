@@ -92,6 +92,111 @@
             </div>
 
         </div>
+        <div class="main-container">
+            <div class="first-main-div border-radius" >
+              
+               <div class="book-online-table c border-radius">
+                   <div>
+                       <h2>Book an Online Consultation
+                       </h2>
+                   </div>
+                   <div >
+                       <table>
+                           <form   id="submit-form" action="">
+                               <tr>
+                                   <td>
+                                       <label for="name">
+                                           Name
+                                       </label>
+                                   </td>
+                                   <td><input type="text" id="fname" name="fname" placeholder="Your name.."  required pattern="[a-z0-9]{3,20}" title="Name only contain letters and numbers "/>
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       <label for="age">
+                                           Age
+                                       </label>
+                                   </td>
+                                   <td><input  type="number" placeholder="Your age.."  id="age" name="age" required min="2" max="100" />
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       <label for="sex">
+                                           Sex
+                                       </label>
+                                   </td>
+                                   <td>
+                                       <select required>
+                                           <option>choose...</option>
+                                           <option>Male</option>
+                                           <option>Female</option>
+                                           <option>TG</option>
+                                       </select>
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       <label for="Mobile number">
+                                           Mobile No.
+                                       </label>
+                                   </td>
+                                   <td><input  type="text"  placeholder="Your mobile number.."  id="mob" name="mob" required pattern="[0-9]{3}[0-9]{3}[0-9]{4}" title="provide ten digit mobile number" />
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td><label for="email">
+                                           Email
+                                       </label>
+                                   </td>
+                                   <td><input type="email" placeholder="Your email.."   id="email" name="email" required/>
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td><label for="specialities">
+                                           Our Specialities
+                                       </label>
+                                   </td>
+                                   <td>
+                                   <select required>
+                                       <option>choose...</option>
+                                       <option>Arthritis</option>
+                                       <option>Asthma & Allergy</option>
+                                       <option>Auto Immune Disorders</option>
+                                       <option>Life Style Disorders</option>
+                                       <option>Pediatrics</option>
+                                       <option>Tyroid Disorders</option>
+                                       <option>Women's Health</option>
+                                   </select>
+                               </td>
+                               </tr>
+                               <tr>
+                                   <td><label for="problem">
+                                           Your problem
+                                       </label>
+                                   </td>
+                               <td>
+                                   <textarea   style="border-radius: 7px;" name="message" rows="5" cols="30"  required ></textarea>
+                               </td>
+                                  
+                               </tr>
+                               <tr>
+                                   <td colspan="2">
+                                   <button style="padding-left: 20px;">SUBMIT</button>
+                               </td>
+                               </tr>
+                               
+                           </form>
+                       </table>
+                   </div>
+                   
+               </div>
+   
+               
+            </div>
+           
+           </div>
     </div>
 </body>
 </html>
