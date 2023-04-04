@@ -198,5 +198,30 @@
            
            </div>
     </div>
+    <div class="footer-container">
+        <p id="footer-copyright">copyright &copy; 2023 | Dr.Meera's Homeopathy
+
+        </div>
+   
+</div>
+<script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbx1c0WnZ-fSSIdKQVN2YYwHRmWwqMUs_NQTKjA3kmsmthfxHTHg7-5qpFvHkjpFg7uXvA/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Booked successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something went wrong")
+
+            }
+        })
+    })
+</script>
 </body>
 </html>
