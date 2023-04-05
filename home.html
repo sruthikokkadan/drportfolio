@@ -1,54 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home| Dr.Meera's Homeopathy clinic</title>
-    <link rel="stylesheet" href="styleportfolio.css" type="text/css" >
+    <link rel="stylesheet" href="styleportfolio.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
-            
-            
+
+
             <div class="menu-bar">
                 <div class="logo">
-                    <a href="home.html" >
-                        <img src="images/LOGO2.jpg"   class="imagesize">
+                    <a href="home.html">
+                        <img src="images/LOGO2.jpg" class="imagesize">
                     </a>
-                    </div>
+                </div>
                 <div class="upper-header-phone">
                     <ul class="unordered-phone-header-list">
-                        <li >
-                    <i class=" fa-phone header-phone-italic fa-changed-in-phone-alignment"  style="font-size:24px"></i>
-                    <a href="tel:+912345678910" class="phone-number-color">
-                        +91 2345678910
-                    </a>
-                </li>
-                <li>
-                    <i class="fa fa-envelope " style="font-size:24px"></i>
-                    <a href="mailto:consult@drmeera.com" class="phone-number-color header-phone-decoration">
-                        consult@drmeera.com
-                    </a>
-                </li>
-                <li >
-                    <a class="social" href="https://www.facebook.com/drmeera" target="_blank">
-                        <i class="fa fa-facebook-official socialmedia-color"></i>
-                    </a>
-                    &nbsp;&nbsp;
-                    <a class="social" href="https://www.twitter.com/drmeera" target="_blank">
-                        <i class="fa fa-twitter-square socialmedia-color"></i>
-                    </a>
-                    &nbsp;&nbsp;
-                    <a class="social" href="https://in.linkedin.com/in/drmeera" target="_blank">
-                        <i class="fa fa-linkedin-square socialmedia-color"></i>
-                    </a>
-                    &nbsp;&nbsp;
-                </li>
-                </ul>
+                        <li>
+                            <i class=" fa-phone header-phone-italic fa-changed-in-phone-alignment"
+                                style="font-size:24px"></i>
+                            <a href="tel:+912345678910" class="phone-number-color">
+                                +91 2345678910
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope " style="font-size:24px"></i>
+                            <a href="mailto:consult@drmeera.com" class="phone-number-color header-phone-decoration">
+                                consult@drmeera.com
+                            </a>
+                        </li>
+                        <li>
+                            <a class="social" href="https://www.facebook.com/drmeera" target="_blank">
+                                <i class="fa fa-facebook-official socialmedia-color"></i>
+                            </a>
+                            &nbsp;&nbsp;
+                            <a class="social" href="https://www.twitter.com/drmeera" target="_blank">
+                                <i class="fa fa-twitter-square socialmedia-color"></i>
+                            </a>
+                            &nbsp;&nbsp;
+                            <a class="social" href="https://in.linkedin.com/in/drmeera" target="_blank">
+                                <i class="fa fa-linkedin-square socialmedia-color"></i>
+                            </a>
+                            &nbsp;&nbsp;
+                        </li>
+                    </ul>
 
                 </div>
                 <nav>
@@ -63,7 +66,7 @@
 
                             </li>
                             <li class="dropdown list-decoration">
-                                <a href="specialities.html" class="menubar-decoration ">  Specialities &nbsp</a>
+                                <a href="specialities.html" class="menubar-decoration "> Specialities &nbsp</a>
                                 <i class="fa fa-angle-down"></i>
                                 <div class=" dropdown-content">
                                     <a href="#">Arthritis</a>
@@ -74,7 +77,7 @@
                                     <a href="#">Tyroid Disorders</a>
                                     <a href="#">Women's Health</a>
                                 </div>
-                             </li>
+                            </li>
                             <li class="list-decoration">
                                 <a href="blog.html" class="menubar-decoration">Blog</a>
 
@@ -83,7 +86,7 @@
                                 <a href="contact.html" class="menubar-decoration">Contact Us</a>
                             </li>
                             <li class="list-decoration">
-                                <button class="button " >
+                                <button class="button ">
                                     <a class="consult-online" href="contact.html">Book an Appointment
 
                                     </a>
@@ -96,135 +99,142 @@
 
         </div>
         <div class="main-container">
-            <div class="first-main-div border-radius" >
-              
-               <div class="book-online-table c border-radius">
-                   <div>
-                       <h2>Book an Online Consultation
-                       </h2>
-                   </div>
-                   <div >
-                       <table>
-                           <form   id="submit-form" action="">
-                               <tr>
-                                   <td>
-                                       <label for="name">
-                                           Name
-                                       </label>
-                                   </td>
-                                   <td><input type="text" id="fname" name="fname" placeholder="Your name.."  required pattern="[a-z0-9]{3,20}" title="Name only contain letters and numbers "/>
-                                   </td>
-                               </tr>
-                               <tr>
-                                   <td>
-                                       <label for="age">
-                                           Age
-                                       </label>
-                                   </td>
-                                   <td><input  type="number" placeholder="Your age.."  id="age" name="age" required min="2" max="100" />
-                                   </td>
-                               </tr>
-                               <tr>
-                                   <td>
-                                       <label for="sex">
-                                           Sex
-                                       </label>
-                                   </td>
-                                   <td>
-                                       <select required>
-                                           <option>choose...</option>
-                                           <option>Male</option>
-                                           <option>Female</option>
-                                           <option>TG</option>
-                                       </select>
-                                   </td>
-                               </tr>
-                               <tr>
-                                   <td>
-                                       <label for="Mobile number">
-                                           Mobile No.
-                                       </label>
-                                   </td>
-                                   <td><input  type="text"  placeholder="Your mobile number.."  id="mob" name="mob" required pattern="[0-9]{3}[0-9]{3}[0-9]{4}" title="provide ten digit mobile number" />
-                                   </td>
-                               </tr>
-                               <tr>
-                                   <td><label for="email">
-                                           Email
-                                       </label>
-                                   </td>
-                                   <td><input type="email" placeholder="Your email.."   id="email" name="email" required/>
-                                   </td>
-                               </tr>
-                               <tr>
-                                   <td><label for="specialities">
-                                           Our Specialities
-                                       </label>
-                                   </td>
-                                   <td>
-                                   <select required>
-                                       <option>choose...</option>
-                                       <option>Arthritis</option>
-                                       <option>Asthma & Allergy</option>
-                                       <option>Auto Immune Disorders</option>
-                                       <option>Life Style Disorders</option>
-                                       <option>Pediatrics</option>
-                                       <option>Tyroid Disorders</option>
-                                       <option>Women's Health</option>
-                                   </select>
-                               </td>
-                               </tr>
-                               <tr>
-                                   <td><label for="problem">
-                                           Your problem
-                                       </label>
-                                   </td>
-                               <td>
-                                   <textarea   style="border-radius: 7px;" name="message" rows="5" cols="30"  required ></textarea>
-                               </td>
-                                  
-                               </tr>
-                               <tr>
-                                   <td colspan="2">
-                                   <button style="padding-left: 20px;">SUBMIT</button>
-                               </td>
-                               </tr>
-                               
-                           </form>
-                       </table>
-                   </div>
-                   
-               </div>
-   
-               
+            <div class="first-main-div border-radius">
+
+                <div class="book-online-table c border-radius">
+                    <div>
+                        <h2>Book an Online Consultation
+                        </h2>
+                    </div>
+                    <div>
+                        <table>
+                            <form id="submit-form" action="">
+                                <tr>
+                                    <td>
+                                        <label for="name">
+                                            Name
+                                        </label>
+                                    </td>
+                                    <td><input type="text" id="fname" name="fname" placeholder="Your name.." required
+                                            pattern="[a-z0-9]{3,20}" title="Name only contain letters and numbers " />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="age">
+                                            Age
+                                        </label>
+                                    </td>
+                                    <td><input type="number" placeholder="Your age.." id="age" name="age" required
+                                            min="2" max="100" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="sex">
+                                            Sex
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <select required>
+                                            <option>choose...</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>TG</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="Mobile number">
+                                            Mobile No.
+                                        </label>
+                                    </td>
+                                    <td><input type="text" placeholder="Your mobile number.." id="mob" name="mob"
+                                            required pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                                            title="provide ten digit mobile number" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="email">
+                                            Email
+                                        </label>
+                                    </td>
+                                    <td><input type="email" placeholder="Your email.." id="email" name="email"
+                                            required />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="specialities">
+                                            Our Specialities
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <select required>
+                                            <option>choose...</option>
+                                            <option>Arthritis</option>
+                                            <option>Asthma & Allergy</option>
+                                            <option>Auto Immune Disorders</option>
+                                            <option>Life Style Disorders</option>
+                                            <option>Pediatrics</option>
+                                            <option>Tyroid Disorders</option>
+                                            <option>Women's Health</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="problem">
+                                            Your problem
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <textarea style="border-radius: 7px;" name="message" rows="5" cols="30"
+                                            required></textarea>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button style="padding-left: 20px;">SUBMIT</button>
+                                    </td>
+                                </tr>
+
+                            </form>
+                        </table>
+                    </div>
+
+                </div>
+
+
             </div>
-           
-           </div>
+
+        </div>
     </div>
     <div class="footer-container">
         <p id="footer-copyright">copyright &copy; 2023 | Dr.Meera's Homeopathy
 
-        </div>
-   
-</div>
-<script>
-    $("#submit-form").submit((e)=>{
-        e.preventDefault()
-        $.ajax({
-            url:"https://script.google.com/macros/s/AKfycbx1c0WnZ-fSSIdKQVN2YYwHRmWwqMUs_NQTKjA3kmsmthfxHTHg7-5qpFvHkjpFg7uXvA/exec",
-            data:$("#submit-form").serialize(),
-            method:"post",
-            success:function (response){
-                alert("Booked successfully")
-                window.location.reload()
-                //window.location.href="https://google.com"
-            },
-            error:function (err){
-                alert("Something went wrong")
+    </div>
 
-            }
+    </div>
+    <script>
+        $("#submit-form").submit((e) => {
+            e.preventDefault()
+            $.ajax({
+                url: "https://script.google.com/macros/s/AKfycbx1c0WnZ-fSSIdKQVN2YYwHRmWwqMUs_NQTKjA3kmsmthfxHTHg7-5qpFvHkjpFg7uXvA/exec",
+                data: $("#submit-form").serialize(),
+                method: "post",
+                success: function (response) {
+                    alert("Booked successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error: function (err) {
+                    alert("Something went wrong")
+
+                }
+            })
         })
-    })
-</script>
+    </script>
 </body>
+
 </html>
