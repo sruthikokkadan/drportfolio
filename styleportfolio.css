@@ -144,7 +144,8 @@ user agent stylesheet
   .dropdown:hover .dropbtn {
     background-color: #eb3477;
 }
-  .main-container{
+  .main-container
+  {
     height: 800px;
     width: 100%;
     background-image:url(images/CHECK-UP-main.webp);
@@ -332,9 +333,7 @@ select{
   padding-top: 20px;
 
 }
-.about-image-size{
 
-}
 .about-para{
   float: right;
   background-color: #fff;
@@ -364,7 +363,7 @@ select{
 .about-myself{
   height: 400px;
   width: 100%;
- ;
+ 
 }
 
  #about-myself-1{
@@ -379,6 +378,4 @@ select{
   float: right;
   
  }
- .p.d{
-  
- }
+ 
